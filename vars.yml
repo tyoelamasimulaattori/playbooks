@@ -1,5 +1,5 @@
 ---
-repository_url: git@github.com:rikukissa/tyoelamasimulaattori.git
+repository_url: git@github.com:tyoelamasimulaattori/tyoelamasimulaattori.git
 project_path: /home/riku/tyoelamasimulaattori
 nvm_path: /home/riku/nvm
 nvm_script: /home/riku/nvm/nvm.sh
