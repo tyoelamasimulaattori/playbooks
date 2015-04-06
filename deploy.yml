@@ -26,7 +26,11 @@
 
     - name: Run migrations
       remote_user: riku
-      command: php artisan migrate --force chdir="{{ project_path }}"
+      command: php artisan migrate:refresh --force chdir="{{ project_path }}"
+
+    - name: Seed database
+      remote_user: riku
+      command: php artisan db:seed --force chdir="{{ project_path }}"
 
     - name: Install NVM
       remote_user: riku
